@@ -11,8 +11,7 @@ dependencies = [
     "python-dotenv>=1.0.1",
     "prometheus-client>=0.20.0",
     "pydantic-settings>=2.3.3",
-    "pytest>=8.2.2",
-    "pylint>=3.2.3",
+
 ]
 requires-python = "==3.12.*"
 readme = "README.md"
@@ -25,8 +24,9 @@ distribution = false
 dev = [
     "pytest>=8.2.2",
     "pylint>=3.2.3",
+    "pytest-asyncio>=0.18.3",
+    "httpx>=0.23.1",
 ]
-
 [tool.pdm.scripts]
 start-local = "python run_server.py local"
 start-dev = "python run_server.py dev"

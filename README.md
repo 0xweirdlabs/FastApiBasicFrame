@@ -91,7 +91,7 @@ Contains functions that interact with data sources, such as databases or externa
 
 The main entry point of the FastAPI application. It includes middleware, routes, and Prometheus metrics setup.
 
-####src/fastapibasic/prometheus.py:
+#### src/fastapibasic/prometheus.py:
 Contains all Prometheus-related functionality, including metrics definitions and middleware for tracking requests and HTTP status codes.
 
 #### src/fastapibasic/routes.py:
