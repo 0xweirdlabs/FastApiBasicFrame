@@ -3,13 +3,14 @@ name = "FastApiBasic"
 version = "0.1.0"
 description = "Default template for PDM package"
 authors = [
-    {name = "0xweirdlabs", email = "nbrehler@gmail.com"},
+    {name = "0xweirdlabs", email = "[redacted]@gmail.com"},
 ]
 dependencies = [
     "fastapi>=0.111.0",
     "uvicorn>=0.30.1",
     "python-dotenv>=1.0.1",
     "prometheus-client>=0.20.0",
+    "pydantic-settings>=2.3.3",
 ]
 requires-python = "==3.12.*"
 readme = "README.md"
